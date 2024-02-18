@@ -1,10 +1,6 @@
 import { Link } from 'react-router-dom'
 import './leftbar.css'
-
-//component
-import CurrentUser from '../../FakeData/CurrentUserData'
-
-//icon image
+import CurrentUser from '../../data/CurrentUser'
 import Friend from '../../assets/icon/1.png'
 import Groups from '../../assets/icon/2.png'
 import Market from '../../assets/icon/3.png'
@@ -21,7 +17,7 @@ export default function LeftBar() {
           <Link to = '/profile/id'>
             <div className="user">
               <img src={CurrentUser.map(user=>(user.ProfieImage))} alt="" />
-              <h4>Beg Joker</h4>
+              <h4>Jue Lya</h4>
             </div>
           </Link>
 

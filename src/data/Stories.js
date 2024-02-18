@@ -1,4 +1,3 @@
-
 import StoryProfile1 from "../assets/img/storyProfile1.jpg";
 import StoryProfile2 from "../assets/img/StoryProfile2.jpg";
 import StoryProfile3 from "../assets/img/StoryProfile3.jpg";
@@ -23,55 +22,55 @@ import Story9 from "../assets/img/story9.jpg";
 const Stories =[
     {
         id: 1, 
-        name: 'Irfan Nazir',
+        name: 'Shamim Park',
         storyProfile: StoryProfile1,
         story: Story1
     },     
     {
         id: 2, 
-        name: 'Alyxa Doie',
+        name: 'Alysa Mei',
         storyProfile:StoryProfile2,
         story: Story2
     },     
     {
         id: 3, 
-        name: 'David Mark',
+        name: 'Harry Lee',
         storyProfile: StoryProfile3,
         story: Story3
     },     
     {
         id: 4, 
-        name: 'Khatrin Frue',
+        name: 'Melissa John',
         storyProfile: StoryProfile4,
         story: Story4
     },     
     {
         id: 5, 
-        name: 'Akib Khan',
+        name: 'Shah Khan',
         storyProfile: StoryProfile5,
         story: Story5
     },     
     {
         id: 6, 
-        name: 'Puza Sing',
+        name: 'Huddie',
         storyProfile: StoryProfile6,
         story: Story6
     },     
     {
         id: 7, 
-        name: 'Samira Mahi',
+        name: 'Sara Nad',
         storyProfile: StoryProfile7,
         story: Story7
     },     
     {
         id: 8, 
-        name: 'Saima Abir',
+        name: 'Huda Kamila',
         storyProfile: StoryProfile8,
         story: Story8
     },     
     {
         id: 9, 
-        name: 'Neha Shill',
+        name: 'Lyla Mya',
         storyProfile: StoryProfile9,
         story: Story9
     },     

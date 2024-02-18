@@ -1,6 +1,4 @@
 import './darkmode.css'
-
-//FontAwesome Icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLightbulb } from '@fortawesome/free-solid-svg-icons'
 

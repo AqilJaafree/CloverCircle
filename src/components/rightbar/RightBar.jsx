@@ -1,6 +1,4 @@
-/*import './rightbar.css'
-
-//component
+import './rightbar.css'
 import Message from '../message/Message'
 import FriendReq from '../friendReq/FriendReq'
 
@@ -13,4 +11,4 @@ export default function RightBar() {
       </div>
     </div>
   )
-}*/
+}

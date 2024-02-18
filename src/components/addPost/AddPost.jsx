@@ -1,9 +1,5 @@
 import './addpost.css'
-
-//fake data
-import CurrentUserData from '../../FakeData/CurrentUserData'
-
-//font awesome icon
+import CurrentUserData from '../../data/CurrentUser'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faImage, faSmile, faTags, faVideo } from '@fortawesome/free-solid-svg-icons'
 

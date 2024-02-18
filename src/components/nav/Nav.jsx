@@ -1,13 +1,7 @@
 import './nav.css'
 import { Link } from 'react-router-dom'
-
-//fake api data
-import CurrentUser from '../../FakeData/CurrentUserData'
-
-//component
+import CurrentUser from '../../data/CurrentUser'
 import DarkMode from '../darkmode/DarkMode'
-
-//FontAwesome Icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faSearch, faEnvelope, faBell, faBars  } from '@fortawesome/free-solid-svg-icons'
 
@@ -15,11 +9,9 @@ export default function Nav() {
   return (
     <nav>
       <div className="nav-container">
-
-        {/*.....NavArea Left.....*/}
         <div className="nav-left">
           <Link to = '/'>
-            <h3 className='logo'>PeerPulse</h3>
+            <img src="../src/assets/img/logo.jpg" alt="logo" />
           </Link>
           <Link to = '/'>
             <FontAwesomeIcon icon = {faHome} />
@@ -33,7 +25,6 @@ export default function Nav() {
           </div>
         </div>
 
-        {/*.....NavArea Right.....*/}
         <div className="nav-right">
         <Link to = '/chatbox/id'>
           <FontAwesomeIcon icon = {faEnvelope} />
@@ -49,7 +40,7 @@ export default function Nav() {
         </Link>
         <div className="user">
           <img src={CurrentUser.map(user=>(user.ProfieImage))} alt="" />
-          <h4>Beg Joker</h4>
+          <h4>Jue Lya</h4>
         </div>
         </div>
       </div>

@@ -1,13 +1,7 @@
 import './stories.css'
-
-//swiper
 import 'swiper/css'
 import {Swiper, SwiperSlide} from 'swiper/react'
-
-//fake data
-import StoriesData from '../../FakeData/StoriesData'
-
-//component
+import StoriesData from '../../data/Stories'
 import UserStory from './UserStory'
 
 export default function Stories() {

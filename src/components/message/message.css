@@ -1,4 +1,4 @@
-/*.Messages{
+.Messages{
     background: var(--color-card);
     margin: 20px auto;
     border-radius: 1rem;
@@ -46,7 +46,7 @@
     width: fit-content;
 }
 
-.green.active{
+.green-active{
     height: 10px;
     width: 10px;
     background: var(--color-primary);
@@ -58,4 +58,4 @@
 
 .message p{
     font-size: .9rem;
-}*/
+}

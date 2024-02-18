@@ -1,9 +1,5 @@
 import './stories.css'
-
-//fake data
-import CurrentUserData from '../../FakeData/CurrentUserData'
-
-//Font Awesome Icon
+import CurrentUserData from '../../data/CurrentUser'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAdd } from '@fortawesome/free-solid-svg-icons'
 

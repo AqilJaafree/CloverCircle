@@ -1,12 +1,12 @@
-import ProfieImage from '../assets/img/CurentProfile.jpeg';
+import ProfileImage from '../assets/img/CurrentProfile.jpeg';
 import CoverPhoto from '../assets/img/CoverPhotos.jpg';
 
 const CurrentUser = [
     {
         id: 'me',
-        name : 'Beg Joker',
-        username: '@thebegjoker',
-        ProfieImage: ProfieImage,
+        name : 'Jue Lya',
+        username: '@juemeow',
+        ProfieImage: ProfileImage,
         CoverPhoto: CoverPhoto
     }
 ];

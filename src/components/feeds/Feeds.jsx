@@ -1,17 +1,13 @@
 import './feeds.css'
-
-//component
-import feed from './feed'
-
-//fake data
-import HomeFeedData from '../../FakeData/HomeFeedData'
+import Feed from './Feed'
+import HomeFeedData from '../../data/HomeFeed'
 
 export default function Feeds() {
   return (
     <div className='feeds'>
         {
             HomeFeedData.map(fed=>(
-                <feed fed={fed} key={fed.key} />
+                <Feed fed={fed} key={fed.key} />
             ))
         }
     </div>

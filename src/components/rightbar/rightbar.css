@@ -1,7 +1,7 @@
-/*
+
 .rightbar{
     height: calc(100vh - 3.6rem);
-    background: var(--color-card)
+    background: var(--color-card);
     position: sticky;
     top: 3.6rem;
     overflow: auto;
@@ -13,10 +13,9 @@
 
 .rightbar-container{
     width: 80%;
-}*/
-
+}
 /* Media Screen */
-/*@media (max-width: 1024px) {
+@media (max-width: 1024px) {
     .rightbar-container{
         width: 90%;
     }
@@ -25,6 +24,6 @@
     .rightbar{
         display: none;
     }
-}*/
+}
  
 

@@ -1,9 +1,5 @@
-/*import './message.css'
-
-//fake api
-import MessageData from '../../FakeData/MessageData'
-
-//FontAwesome Icon
+import './message.css'
+import MessageData from '../../data/Message'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEdit, faSearch } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
@@ -19,16 +15,14 @@ export default function Message() {
             <FontAwesomeIcon icon={faSearch} />
             <input type="search" placeholder='Search Message' />
         </div>
-        <div className="border-div">
+        <div className="border-div"></div>
             {
                 MessageData.map(msg=>(
                     <Link to='/chatbox/id'>
                         <div className="message" key={msg.id}>
                             <div className="user">
                                 <img src={msg.img} alt="" />
-                                <div className="green-active">
-
-                                </div>
+                                <div className="green-active"></div>
                             </div>
                             <div className="message-body">
                                 <h5>{msg.name}</h5>
@@ -38,7 +32,7 @@ export default function Message() {
                     </Link>
                 ))
             }
-        </div>
+
     </div>
   )
-}*/
+}

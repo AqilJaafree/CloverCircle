@@ -1,8 +1,6 @@
-/*import './friendreq.css'
+import './friendreq.css'
 import { Link } from 'react-router-dom'
-
-//fake api
-import FriendReqData from '../../FakeData/FriendReqData'
+import FriendReqData from '../../data/FriendReq'
 
 export default function FriendReq() {
   return (
@@ -23,12 +21,12 @@ export default function FriendReq() {
               </div>
             </Link>
             <div className="action">
-              <button classname='btn btn-primary'>Accept</button>
-              <button classname='btn btn-red'>Delete</button>
+              <button class="btn btn-primary">Accept</button>
+              <button class="btn btn-red">Delete</button>
             </div>
           </div>
         ))
       }
     </div>
   )
-}*/
+}

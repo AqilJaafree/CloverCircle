@@ -1,15 +1,10 @@
 import './feeds.css'
 import { Link } from 'react-router-dom'
-
-//component
-//import CommentData from '../../FakeData/CommentData'
-//import CurrentUser from '../../FakeData/CurrentUserData'
-
+//import CommentData from '../../data/Comment'
+//import CurrentUser from '../../data/CurrentUser'
 import Comments from '../comments/Comments'
-
-//font awesome icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faComment, faHeart, faShare } from '@fortawesome/free-solid-svg-icons'
+import { faComment, faHeart, faListDots, faShare } from '@fortawesome/free-solid-svg-icons'
 
 //state
 import { useState } from 'react'

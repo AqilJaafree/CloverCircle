@@ -11,7 +11,7 @@ import ChatBox from '../pages/chatbox/ChatBox'
 //components
 import Nav from '../components/nav/nav'
 import LeftBar from '../components/leftbar/LeftBar'
-//import RightBar from '../components/rightbar/RightBar'
+import RightBar from '../components/rightbar/RightBar'
 
 
 export default function Layout() {
@@ -26,6 +26,7 @@ export default function Layout() {
         <div className="container">
           <Outlet />
         </div>
+        <RightBar />
       </main>
       </>
     )
